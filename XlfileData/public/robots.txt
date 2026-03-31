@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Set your live origin in .env as VITE_SITE_URL (no trailing slash), then add:
+# Sitemap: https://your-domain.com/sitemap.xml

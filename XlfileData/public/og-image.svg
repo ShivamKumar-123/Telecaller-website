@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="630" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030712"/>
+      <stop offset="0.45" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="520" x2="1120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="64" y="64" width="1072" height="502" rx="32" stroke="url(#accent)" stroke-width="2" opacity="0.35"/>
+  <text x="120" y="280" fill="#f8fafc" font-family="system-ui,Segoe UI,sans-serif" font-size="72" font-weight="800" letter-spacing="-0.02em">Advance Solar</text>
+  <text x="120" y="360" fill="#94a3b8" font-family="system-ui,Segoe UI,sans-serif" font-size="36" font-weight="500">Lead operations &amp; telecaller workspace</text>
+  <rect x="120" y="420" width="280" height="12" rx="6" fill="url(#accent)" opacity="0.9"/>
+  <rect x="120" y="448" width="200" height="12" rx="6" fill="#38bdf8" opacity="0.5"/>
+  <rect x="120" y="476" width="240" height="12" rx="6" fill="#a78bfa" opacity="0.45"/>
+</svg>

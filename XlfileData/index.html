@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("theme") === "light") document.documentElement.classList.remove("dark");
+          else document.documentElement.classList.add("dark");
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f1f5f9" media="(prefers-color-scheme: light)" />
+
+    <title>Advance Solar — Lead operations &amp; telecaller workspace</title>
+    <meta
+      name="description"
+      content="Advance Solar operations platform: upload Excel leads, assign telecallers, track interest, and manage follow-ups from one dashboard. Secure staff login and real-time stats."
+    />
+    <meta
+      name="keywords"
+      content="solar leads, CRM, telecaller, Excel leads, lead management, Advance Solar, customer interest, operations"
+    />
+    <meta name="author" content="Advance Solar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="%SITE_URL%/" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="Advance Solar — Operations" />
+    <meta property="og:title" content="Advance Solar — Lead operations &amp; telecaller workspace" />
+    <meta
+      property="og:description"
+      content="Upload Excel leads, assign telecallers, track interest, and manage follow-ups. Dashboard, stats, and secure workflows for your solar sales team."
+    />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Advance Solar — operations and lead management" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Advance Solar — Lead operations &amp; telecaller workspace" />
+    <meta
+      name="twitter:description"
+      content="Upload Excel leads, assign telecallers, track interest, and manage follow-ups from one workspace."
+    />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.svg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Advance Solar — Operations",
+        "description": "Lead operations platform for solar sales: Excel workflows, telecaller assignment, and interest tracking.",
+        "url": "%SITE_URL%/"
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@600,700&f[]=satoshi@400,500,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root" class="min-h-screen bg-slate-100 dark:bg-night-950"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
